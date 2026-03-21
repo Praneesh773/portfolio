@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 import {
-    FaJava, FaPython, FaJs, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDatabase
+    FaJava, FaJs, FaHtml5, FaCss3Alt, FaReact, FaNodeJs
 } from "react-icons/fa";
-import { SiExpress, SiNumpy, SiTailwindcss, SiFramer, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 const skillCategories = [
     {
@@ -13,7 +13,6 @@ const skillCategories = [
             { name: "C", icon: null, color: "#A8B9CC", level: "Intermediate" },
             { name: "Java", icon: FaJava, color: "#007396", level: "Advanced" },
             { name: "JavaScript", icon: FaJs, color: "#F7DF1E", level: "Advanced" },
-            { name: "Python", icon: FaPython, color: "#3776AB", level: "Intermediate" },
         ],
     },
     {
@@ -24,15 +23,6 @@ const skillCategories = [
             { name: "React.js", icon: FaReact, color: "#61DAFB", level: "Advanced" },
             { name: "Node.js", icon: FaNodeJs, color: "#339933", level: "Intermediate" },
             { name: "Express.js", icon: SiExpress, color: "#000000", level: "Intermediate" },
-        ],
-    },
-    {
-        title: "Libraries & Frameworks",
-        skills: [
-            { name: "NumPy", icon: SiNumpy, color: "#013243", level: "Beginner" },
-            { name: "VADER", icon: null, color: "#555", level: "Intermediate" },
-            { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4", level: "Advanced" },
-            { name: "Framer Motion", icon: SiFramer, color: "#0055FF", level: "Intermediate" },
         ],
     },
     {
@@ -60,7 +50,7 @@ export default function Skills() {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {skillCategories.map((category, index) => (
                         <motion.div
                             key={category.title}

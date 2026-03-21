@@ -99,30 +99,6 @@ export default function HallOfFame() {
                                     </a>
                                 </div>
                             </motion.div>
-
-                            {/* Oracle APEX Certificate */}
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.1 }}
-                                className="p-6 bg-white rounded-xl border border-border shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
-                            >
-                                <div>
-                                    <h3 className="text-xl font-bold text-foreground">Oracle APEX Developer Professional</h3>
-                                    <p className="text-muted-foreground mt-1 text-sm">Issued: 2024</p>
-                                </div>
-                                <div className="mt-6 flex justify-end">
-                                    <a
-                                        href="/certificates/apex-cert.pdf"
-                                        target="_blank"
-                                        className="inline-flex items-center gap-2 px-4 py-2 bg-muted text-foreground text-sm font-medium rounded-lg hover:bg-primary hover:text-white transition-colors"
-                                    >
-                                        <FileText className="size-4" />
-                                        View Credential
-                                    </a>
-                                </div>
-                            </motion.div>
                         </div>
                     </div>
 

@@ -42,25 +42,25 @@ const projects: Project[] = [
     },
     {
         id: 3,
-        title: "Sentiment Analysis Using AI",
-        description: "Emotion classification tool using VADER sentiment analysis.",
-        longDescription: "Built a sentiment analyzer that classifies emotions from user input text using the VADER Sentiment analysis tool. Useful for feedback analysis and social monitoring.",
-        techStack: ["Python", "VADER"],
-        date: "January 2025 - May 2025",
-        github: "#",
+        title: "Blog Website",
+        description: "MERN blog platform with like, comment, save, and full CRUD features.",
+        longDescription: "Developed a blog website where users can view others' blogs, like or unlike posts, comment and delete comments, and save or unsave blogs. Users can also add their own blogs and edit or delete them.",
+        techStack: ["MERN"],
+        date: "Dec 2025",
+        github: "https://github.com/Praneesh773/Blog",
         demo: "#",
-        teamMembers: ["Praneesh C", "Prateeksha GK", "Prajit Pranav K"]
+        teamMembers: ["Praneesh C"]
     },
     {
         id: 4,
-        title: "Maserati Website Clone",
-        description: "Enterprise-level product website recreation with modern UI.",
-        longDescription: "Recreated and enhanced the Maserati enterprise product website. Focused on modern features, responsive design, and high-quality visual presentation.",
-        techStack: ["MERN Stack"],
-        date: "January 2025 - December 2025",
+        title: "Juice Selling Platform",
+        description: "Sales platform for PulpBae juice products with social media ad support.",
+        longDescription: "Building a platform for selling orange juice, coconut water, and lime juice in selected areas for the PulpBae company. Also created ad creatives for social media publishing across Instagram, Facebook, and other platforms.",
+        techStack: ["MERN", "Canva (Ads)"],
+        date: "Ongoing",
         github: "#",
         demo: "#",
-        teamMembers: ["Praneesh C", "Prateeksha GK", "Prajit Pranav K"]
+        teamMembers: ["Praneesh C"]
     },
     {
         id: 5,

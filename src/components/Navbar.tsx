@@ -58,7 +58,7 @@ export default function Navbar({ onOpenResume }: { onOpenResume?: () => void }) 
                     href="#hero"
                     className="text-xl font-bold tracking-tight text-foreground hover:text-primary transition-colors font-mono"
                 >
-                    praneesh.dev
+                    pranee.dev
                 </Link>
 
                 {/* Desktop Nav */}
